@@ -1,8 +1,11 @@
-package com.example.project_prm;
+package com.example.project_prm.Activity;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.project_prm.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
