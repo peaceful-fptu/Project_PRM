@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<FoodDomain> foodList = new ArrayList<>();
         foodList.add(new FoodDomain("Pepperoni pizza", "pizza1", "slices pepperoni, mozzarella cheese", 13.0,5,20, 1000));
         foodList.add(new FoodDomain("Cheese Burger", "burger", "slices pepperoni, mozzarella cheese", 15.0,5,20, 1000));
+        foodList.add(new FoodDomain("Cheese Burger", "burger", "slices pepperoni, mozzarella cheese", 15.0,5,20, 1000));
+        foodList.add(new FoodDomain("Cheese Burger", "burger", "slices pepperoni, mozzarella cheese", 15.0,5,20, 1000));
+        foodList.add(new FoodDomain("Cheese Burger", "burger", "slices pepperoni, mozzarella cheese", 15.0,5,20, 1000));
         adapter2 = new PopularAdapter(foodList);
         recyclerViewPopularList.setAdapter(adapter2);
     }
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<CategoryDomain> categoryList =  new ArrayList<>();
         categoryList.add(new CategoryDomain("Pizza", "cat_1"));
         categoryList.add(new CategoryDomain("Burger", "cat_2"));
-        categoryList.add(new CategoryDomain("Hotdog", "cat_3"));
+        categoryList.add(new CategoryDomain("Hot dog", "cat_3"));
         categoryList.add(new CategoryDomain("Drink", "cat_4"));
         categoryList.add(new CategoryDomain("Donut", "cat_5"));
 
